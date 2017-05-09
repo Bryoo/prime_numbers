@@ -30,5 +30,5 @@ def prime_generator(max_num):
 """ testing with 10000
     run "time python3 primenumbers.py
 """
-# my_primes = prime_generator(10000)
+# my_primes = prime_generator(10000")
 # print(my_primes)
