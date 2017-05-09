@@ -21,11 +21,14 @@ def is_prime(num):
 
 
 def prime_generator(max_num):
+    # if not isinstance(max_num, int):
+    #     raise TypeError
+
     all_primes = list(filter(is_prime, range(1, max_num)))  # starting range from 1 takes care of all negatives
     return all_primes
 
 """ testing with 10000
     run "time python3 primenumbers.py
 """
-my_primes = prime_generator(-4)
-print(my_primes)
+# my_primes = prime_generator(10000)
+# print(my_primes)

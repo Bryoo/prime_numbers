@@ -29,7 +29,9 @@ class PrimeTestCase(unittest.TestCase):
             self.assertFalse(prime_generator(index), msg='{} is a negative number and hence isn\'t prime'.format(index))
 
     def test_input_type(self):
-        self.
+        """ Test if function raises typeerror when given a non integer"""
+        with self.assertRaises(TypeError):
+            prime_generator("string")
 
 
 if __name__ == '__main__':
