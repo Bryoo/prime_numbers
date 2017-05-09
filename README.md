@@ -1,4 +1,4 @@
-#DAY 1 ANDELA - PRIME NUMBER GENERATOR
+##DAY 1 ANDELA - PRIME NUMBER GENERATOR
 
 This repo contains Python code that generates prime numbers from 0 to a given number n. It uses two functions, one that accepts input and then generates the prime number based on result from aother is_prime function
 
