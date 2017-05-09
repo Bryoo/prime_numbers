@@ -26,7 +26,7 @@ class PrimeTestCase(unittest.TestCase):
     def test_negative_num(self):
         """ Negative numbers should not be accepted"""
         for index in range(-1, -10, -1):
-            self.assertFalse(prime_generator(index), msg='{} is a negative number and hence isn\'t prime'.format(index))
+            self.assertFalse(prime_generator(index), msg='{} is a negative number and hence isn not prime'.format(index))
 
     def test_input_type(self):
         """ Test if function raises typeerror when given a non integer"""
