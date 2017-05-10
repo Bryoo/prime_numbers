@@ -42,9 +42,3 @@ def prime_generator(max_num):
     all_primes.extend(gen_primes)
     return all_primes
 
-
-""" testing with 10000
-    run "time python3 primenumbers.py
-"""
-# my_primes = prime_generator(10000)
-# print(my_primes)
